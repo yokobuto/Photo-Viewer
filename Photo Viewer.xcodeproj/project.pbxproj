@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		30FD319F2DC3DD7800C17F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FD31892DC3DD7800C17F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FD31902DC3DD7800C17F29;
+			remoteInfo = "Photo Viewer";
+		};
+		30FD31A92DC3DD7800C17F29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30FD31892DC3DD7800C17F29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30FD31902DC3DD7800C17F29;
+			remoteInfo = "Photo Viewer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30FD31912DC3DD7800C17F29 /* Photo Viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photo Viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FD319E2DC3DD7800C17F29 /* Photo ViewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo ViewerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30FD31A82DC3DD7800C17F29 /* Photo ViewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Photo ViewerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30FD31932DC3DD7800C17F29 /* Photo Viewer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Photo Viewer";
+			sourceTree = "<group>";
+		};
+		30FD31A12DC3DD7800C17F29 /* Photo ViewerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Photo ViewerTests";
+			sourceTree = "<group>";
+		};
+		30FD31AB2DC3DD7800C17F29 /* Photo ViewerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Photo ViewerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30FD318E2DC3DD7800C17F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD319B2DC3DD7800C17F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD31A52DC3DD7800C17F29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FD31882DC3DD7800C17F29 = {
+			isa = PBXGroup;
+			children = (
+				30FD31932DC3DD7800C17F29 /* Photo Viewer */,
+				30FD31A12DC3DD7800C17F29 /* Photo ViewerTests */,
+				30FD31AB2DC3DD7800C17F29 /* Photo ViewerUITests */,
+				30FD31922DC3DD7800C17F29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30FD31922DC3DD7800C17F29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30FD31912DC3DD7800C17F29 /* Photo Viewer.app */,
+				30FD319E2DC3DD7800C17F29 /* Photo ViewerTests.xctest */,
+				30FD31A82DC3DD7800C17F29 /* Photo ViewerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30FD31902DC3DD7800C17F29 /* Photo Viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FD31B22DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo Viewer" */;
+			buildPhases = (
+				30FD318D2DC3DD7800C17F29 /* Sources */,
+				30FD318E2DC3DD7800C17F29 /* Frameworks */,
+				30FD318F2DC3DD7800C17F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30FD31932DC3DD7800C17F29 /* Photo Viewer */,
+			);
+			name = "Photo Viewer";
+			packageProductDependencies = (
+			);
+			productName = "Photo Viewer";
+			productReference = 30FD31912DC3DD7800C17F29 /* Photo Viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30FD319D2DC3DD7800C17F29 /* Photo ViewerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FD31B52DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo ViewerTests" */;
+			buildPhases = (
+				30FD319A2DC3DD7800C17F29 /* Sources */,
+				30FD319B2DC3DD7800C17F29 /* Frameworks */,
+				30FD319C2DC3DD7800C17F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FD31A02DC3DD7800C17F29 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30FD31A12DC3DD7800C17F29 /* Photo ViewerTests */,
+			);
+			name = "Photo ViewerTests";
+			packageProductDependencies = (
+			);
+			productName = "Photo ViewerTests";
+			productReference = 30FD319E2DC3DD7800C17F29 /* Photo ViewerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		30FD31A72DC3DD7800C17F29 /* Photo ViewerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30FD31B82DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo ViewerUITests" */;
+			buildPhases = (
+				30FD31A42DC3DD7800C17F29 /* Sources */,
+				30FD31A52DC3DD7800C17F29 /* Frameworks */,
+				30FD31A62DC3DD7800C17F29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30FD31AA2DC3DD7800C17F29 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				30FD31AB2DC3DD7800C17F29 /* Photo ViewerUITests */,
+			);
+			name = "Photo ViewerUITests";
+			packageProductDependencies = (
+			);
+			productName = "Photo ViewerUITests";
+			productReference = 30FD31A82DC3DD7800C17F29 /* Photo ViewerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30FD31892DC3DD7800C17F29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					30FD31902DC3DD7800C17F29 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					30FD319D2DC3DD7800C17F29 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 30FD31902DC3DD7800C17F29;
+					};
+					30FD31A72DC3DD7800C17F29 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 30FD31902DC3DD7800C17F29;
+					};
+				};
+			};
+			buildConfigurationList = 30FD318C2DC3DD7800C17F29 /* Build configuration list for PBXProject "Photo Viewer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30FD31882DC3DD7800C17F29;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 30FD31922DC3DD7800C17F29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30FD31902DC3DD7800C17F29 /* Photo Viewer */,
+				30FD319D2DC3DD7800C17F29 /* Photo ViewerTests */,
+				30FD31A72DC3DD7800C17F29 /* Photo ViewerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30FD318F2DC3DD7800C17F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD319C2DC3DD7800C17F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD31A62DC3DD7800C17F29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30FD318D2DC3DD7800C17F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD319A2DC3DD7800C17F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30FD31A42DC3DD7800C17F29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30FD31A02DC3DD7800C17F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FD31902DC3DD7800C17F29 /* Photo Viewer */;
+			targetProxy = 30FD319F2DC3DD7800C17F29 /* PBXContainerItemProxy */;
+		};
+		30FD31AA2DC3DD7800C17F29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30FD31902DC3DD7800C17F29 /* Photo Viewer */;
+			targetProxy = 30FD31A92DC3DD7800C17F29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		30FD31B02DC3DD7800C17F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		30FD31B12DC3DD7800C17F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30FD31B32DC3DD7800C17F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30FD31B42DC3DD7800C17F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-Viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		30FD31B62DC3DD7800C17F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photo Viewer";
+			};
+			name = Debug;
+		};
+		30FD31B72DC3DD7800C17F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-ViewerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Photo Viewer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Photo Viewer";
+			};
+			name = Release;
+		};
+		30FD31B92DC3DD7800C17F29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Viewer";
+			};
+			name = Debug;
+		};
+		30FD31BA2DC3DD7800C17F29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 56F7L6935Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "de.yokobuto.Photo-ViewerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Photo Viewer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30FD318C2DC3DD7800C17F29 /* Build configuration list for PBXProject "Photo Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FD31B02DC3DD7800C17F29 /* Debug */,
+				30FD31B12DC3DD7800C17F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FD31B22DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo Viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FD31B32DC3DD7800C17F29 /* Debug */,
+				30FD31B42DC3DD7800C17F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FD31B52DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo ViewerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FD31B62DC3DD7800C17F29 /* Debug */,
+				30FD31B72DC3DD7800C17F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30FD31B82DC3DD7800C17F29 /* Build configuration list for PBXNativeTarget "Photo ViewerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30FD31B92DC3DD7800C17F29 /* Debug */,
+				30FD31BA2DC3DD7800C17F29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30FD31892DC3DD7800C17F29 /* Project object */;
+}
