@@ -22,23 +22,19 @@ struct ContentView: View {
     @State private var finalMagnification: CGFloat = 1.0
     
     var body: some View {
-        VStack {
-            Text("dragAmount width: \(dragAmount.width)")
-            Text("dragAmount height: \(dragAmount.height)").padding(.bottom)
-            Text("offset width: \(offset.width)")
-            Text("offset height: \(offset.height)").padding(.bottom)
-            Text("rotateAmount: \(rotateAmount)")
-            Text("finalRotation: \(finalRotation)").padding(.bottom)
-            Text("magnifyBy: \(magnifyBy)")
-            Text("finalMagnification: \(finalMagnification)")
-        }
-        .background(.red)
-        .padding()
-        .simultaneousGesture(dragGesture)
-        .simultaneousGesture(rotationGesture)
-        .simultaneousGesture(magnificationGesture)
+        
+        Image("postImage")
+            .resizable()
+            .aspectRatio(contentMode: .fit)
+            .padding()
+            .offset(x: dragAmount.width + offset.width, y: dragAmount.height + offset.height)
+            .rotationEffect(finalRotation + rotateAmount)
+            .scaleEffect(finalMagnification + magnifyBy)
+            .simultaneousGesture(dragGesture)
+            .simultaneousGesture(rotationGesture)
+            .simultaneousGesture(magnificationGesture)
     }
-    
+
     var dragGesture: some Gesture {
             DragGesture()
                 .updating($dragAmount) { value, state, _ in
@@ -70,6 +66,17 @@ struct ContentView: View {
             .onEnded { value in
                 finalMagnification *= value
             }
+    }
+    
+    func printGestureValues(){
+        print("dragAmount width: \(dragAmount.width)")
+        print("dragAmount height: \(dragAmount.height)")
+        print("offset width: \(offset.width)")
+        print("offset height: \(offset.height)")
+        print("rotateAmount: \(rotateAmount)")
+        print("finalRotation: \(finalRotation)")
+        print("magnifyBy: \(magnifyBy)")
+        print("finalMagnification: \(finalMagnification)")
     }
     
     
